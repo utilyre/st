@@ -51,7 +51,8 @@ sudo make install
 ## Patches
 
 1. [alpha](https://st.suckless.org/patches/alpha)
-2. [ligatures](https://st.suckless.org/patches/ligatures)
-3. [xresources](https://st.suckless.org/patches/xresources)
-4. [fix keyboard input](https://st.suckless.org/patches/fix_keyboard_input)
-5. [swapmouse](https://st.suckless.org/patches/swapmouse)
+2. [glyph wide support](https://st.suckless.org/patches/glyph_wide_support)
+3. [ligatures](https://st.suckless.org/patches/ligatures)
+4. [xresources](https://st.suckless.org/patches/xresources)
+5. [fix keyboard input](https://st.suckless.org/patches/fix_keyboard_input)
+6. [swapmouse](https://st.suckless.org/patches/swapmouse)
