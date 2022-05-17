@@ -172,6 +172,32 @@ static unsigned int defaultattr = 11;
 static uint forcemousemod = ShiftMask;
 
 /*
+ * Xresources preferences to load at startup
+ */
+ResourcePref resources[] = {
+		{ "font",         STRING,  &font },
+		{ "alpha",        FLOAT,   &alpha },
+		{ "background",   STRING,  &colorname[257] },
+		{ "foreground",   STRING,  &colorname[256] },
+		{ "black",        STRING,  &colorname[0] },
+		{ "red",          STRING,  &colorname[1] },
+		{ "green",        STRING,  &colorname[2] },
+		{ "yellow",       STRING,  &colorname[3] },
+		{ "blue",         STRING,  &colorname[4] },
+		{ "magenta",      STRING,  &colorname[5] },
+		{ "cyan",         STRING,  &colorname[6] },
+		{ "white",        STRING,  &colorname[7] },
+		{ "black",        STRING,  &colorname[8] },
+		{ "red",          STRING,  &colorname[9] },
+		{ "green",        STRING,  &colorname[10] },
+		{ "yellow",       STRING,  &colorname[11] },
+		{ "blue",         STRING,  &colorname[12] },
+		{ "magenta",      STRING,  &colorname[13] },
+		{ "cyan",         STRING,  &colorname[14] },
+		{ "white",        STRING,  &colorname[15] },
+};
+
+/*
  * Internal mouse shortcuts.
  * Beware that overloading Button1 will disable the selection.
  */
