@@ -34,7 +34,7 @@ Clone the repository:
 git clone "https://github.com/utilyre/st.git"
 ```
 
-Change directory into the repo and run the command below:
+Change directory to the repo and run the command below:
 
 ```sh
 sudo make install
