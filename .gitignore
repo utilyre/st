@@ -1,0 +1,7 @@
+.ccls-cache/
+*.o
+st
+
+*.diff
+*.orig
+*.rej
